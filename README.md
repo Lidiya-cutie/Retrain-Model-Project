@@ -47,7 +47,7 @@ matplotlib
 joblib
 ```
 
-## Использование
+## [Использование](https://github.com/Lidiya-cutie/Retrain-Model-Project/tree/master/scripts)
 
 ### Основные параметры запуска
 

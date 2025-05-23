@@ -52,7 +52,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 try:
-    from testhash_2 import tune_xgb, tune_xgb_for_recall
+    from hyperparam_tuning import tune_xgb, tune_xgb_for_recall
 except ImportError:
     logger.warning("Модуль тюнинга недоступен. Используются базовые параметры.")
 # ————————————————————————————————

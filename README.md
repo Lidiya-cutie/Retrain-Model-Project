@@ -98,7 +98,7 @@ python retrain_model.py --model xgb --pretrained-model old_model.joblib
 
 ```
 retrain_model.py          # Основной скрипт
-testhash_2.py            # Модуль для тюнинга (опционально)
+hyperparam_tuning.py            # Модуль для тюнинга (опционально)
 secrets.json             # Файл с API ключами (не включен в репозиторий)
 retrained_results/       # Директория с результатами
 reports/                 # Генерируемые отчеты

@@ -59,7 +59,7 @@ except ImportError:
 # Конфигурация
 # ————————————————————————————————
 
-SECRETS_PATH = "/home/tbdbj/for_train/secrets.json"
+SECRETS_PATH = "/path/to/secrets.json"
 
 if not os.path.exists(SECRETS_PATH):
     raise FileNotFoundError(f"Файл secrets.json не найден по пути {SECRETS_PATH}")
@@ -71,7 +71,7 @@ COMET_API_KEY = secrets.get("comet_api_key")
 if not COMET_API_KEY:
     raise ValueError("Ключ 'comet_api_key' отсутствует в файле secrets.json")
 
-DATASET_PATH = "/home/tbdbj/forest_test/report/report_24_01_0/24.01 Медицинские услуги_qwen2.csv"
+DATASET_PATH = "/path/to/your.csv"
 best_params_path = os.path.join(os.path.dirname(DATASET_PATH),
                                 os.path.splitext(os.path.basename(DATASET_PATH))[0] + "_best_params.json")
 

@@ -1,0 +1,16 @@
+Top 15 признаков:
+feature_20: 0.5804
+feature_23: 0.2076
+feature_22: 0.0404
+feature_0: 0.0360
+feature_24: 0.0275
+feature_8: 0.0248
+feature_27: 0.0223
+feature_2: 0.0215
+feature_25: 0.0093
+feature_10: 0.0089
+feature_3: 0.0037
+feature_9: 0.0036
+feature_15: 0.0033
+feature_7: 0.0030
+feature_12: 0.0029

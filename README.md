@@ -97,11 +97,13 @@ python retrain_model.py --model xgb --pretrained-model old_model.joblib
 ## Структура проекта
 
 ```
+scripts/                 # Скрипты для запуска
 retrain_model.py          # Основной скрипт
 hyperparam_tuning.py            # Модуль для тюнинга (опционально)
 secrets.json             # Файл с API ключами (не включен в репозиторий)
 retrained_results/       # Директория с результатами
 reports/                 # Генерируемые отчеты
+images/                  # Графики
 ```
 
 ## Настройка Comet.ml
